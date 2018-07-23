@@ -1,0 +1,77 @@
+* {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+ 
+body {
+	background-image: url(../images/zalora3.jpg);
+	/*background-color: green;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-attachment: fixed;	
+}
+
+.carousel-picture {
+	height: 100%;
+	width: 100%;
+}
+
+a, p, h3, h2 {
+	font-family: "Montserrat", sans-serif
+}
+
+#demo {
+	width: 90%;
+	margin-left: 5%;
+}
+
+.weshop{
+	height: 120px;
+	width: 10%;
+	margin-left: 10%;
+	border-radius: 15px;
+}
+
+.nav-text {
+	font-size: 20px;
+	color: black;
+}
+
+#nav-text {
+	font-size: 20px;
+	color: black;
+}
+
+.navbar {
+	border-radius: 15px;
+}
+
+footer {
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.logo {
+	height: 200px;
+	width: 100px;
+	border-radius: 20px;
+}
+
+iframe {
+	margin-left: 5%;
+}
+
+img[alt*="logo"]{
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	display: block;
+	margin-right: 20px;
+	border-radius: 10px;
+}
